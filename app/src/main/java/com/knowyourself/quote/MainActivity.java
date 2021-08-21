@@ -11,16 +11,18 @@ import android.util.Log;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.lang.reflect.Field;
 
 public class MainActivity extends AppCompatActivity {
     private final static String TAG = MainActivity.class.toString();
-
-    private final File dir = new File(getApplication().getFilesDir(), "quote");
+    private File dir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        dir = new File(getApplication().getFilesDir(), "quote");
 
         crateDirAndCopyFile();
 /*
@@ -53,11 +55,14 @@ public class MainActivity extends AppCompatActivity {
             dir.mkdirs();
             try {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-                    copyFile(R.raw.lao_tzu);
+                    Field[] fields = R.raw.class.getDeclaredFields();
+                    for(int i = 0; i < fields.length; i++) {
+                        copyFile((fields[i].getInt(fields[i])));
+                    }
                 } else {
                     Log.i(TAG, "Coping file not supported");
                 }
-            } catch (IOException e) {
+            } catch (IOException | IllegalAccessException e) {
                 Log.e(TAG,e.getLocalizedMessage(), e);
                 throw new RuntimeException(e);
             }
