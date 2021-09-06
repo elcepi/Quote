@@ -11,9 +11,9 @@ class GoodReads:
 
 	def process(self):
 		for a in self.soup.select(".quoteText"):
-			print(a.get_text().replace("\n", " "))
+			print(a.get_text())
+			print("--")
 
 
-h = GoodReads()
-h.process()
+GoodReads().process()
 

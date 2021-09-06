@@ -1,27 +1,19 @@
 #!/usr/bin/python3
 
-from html.parser import HTMLParser
-import re
 import urllib3
+from bs4 import BeautifulSoup
 import sys
 
-class BrainyQuote(HTMLParser):
+class BrainyQuote:
 	def __init__(self):
-		self.quote = False
+		self.soup = BeautifulSoup(urllib3.PoolManager().request("GET", sys.argv[1]).data.decode("utf-8"), "html.parser")
 		super().__init__()
 
-	def handle_starttag(self, tag, attrs):
-		if(tag == 'div' and attrs[0][0] == 'style' and attrs[0][1] == 'display: flex;justify-content: space-between'):
-			self.quote = True
 
-	def handle_data(self, data):
-		if(self.quote):
-        		print(re.sub("^\s","",re.sub("\s+", " ", data)))
-		self.quote = False
+	def process(self):
+		for a in self.soup.select(".b-qt"):
+			print(a.get_text())
+			print("--")
 
-h = BrainyQuote()
-
-http = urllib3.PoolManager()
-resp = http.request('GET', sys.argv[1])
-h.feed(resp.data.decode('utf-8'))
+BrainyQuote().process()
 
