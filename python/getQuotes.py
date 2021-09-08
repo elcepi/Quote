@@ -3,6 +3,7 @@
 import urllib3
 from bs4 import BeautifulSoup
 import sys
+import re
 
 selector = {"www.goodreads.com": ".quoteText", "www.brainyquote.com": ".b-qt"}
 
@@ -15,7 +16,7 @@ class GetQuotes:
 
 	def process(self):
 		for a in self.soup.select(self.cssSel):
-			print(a.get_text())
+			print(re.sub("\n\n*","",a.get_text()))
 			print("--")
 
 GetQuotes().process()
