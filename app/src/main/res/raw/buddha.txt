@@ -1,59 +1,178 @@
-Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment. 
-Three things cannot be long hidden: the sun, the moon, and the truth. 
-Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned. 
-Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared. 
-Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship. 
-We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves. 
-You, yourself, as much as anybody in the entire universe, deserve your love and affection. 
-No one saves us but ourselves. No one can and no one may. We ourselves must walk the path. 
-The mind is everything. What you think you become. 
-We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world. 
-You can search throughout the entire universe for someone who is more deserving of your love and affection than you are yourself, and that person is not to be found anywhere. You yourself, as much as anybody in the entire universe deserve your love and affection. 
-To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear. 
-Peace comes from within. Do not seek it without. 
-It is better to conquer yourself than to win a thousand battles. Then the victory is yours. It cannot be taken from you, not by angels or by demons, heaven or hell. 
-What we think, we become. 
-There are only two mistakes one can make along the road to truth; not going all the way, and not starting. 
-It is a man's own mind, not his enemy or foe, that lures him to evil ways. 
-A woman of the world is anxious to exhibit her form and shape, whether walking, standing, sitting, or sleeping. Even when represented as a picture, she desires to captivate with the charms of her beauty and, thus, to rob men of their steadfast heart. 
-You will not be punished for your anger, you will be punished by your anger. 
-I never see what has been done; I only see what remains to be done. 
-Hatred does not cease by hatred, but only by love; this is the eternal rule. 
-It is better to travel well than to arrive. 
-To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind he can find the way to Enlightenment, and all wisdom and virtue will naturally come to him. 
-However many holy words you read, however many you speak, what good will they do you if you do not act on upon them? 
-Those who are free of resentful thoughts surely find peace. 
-Even death is not to be feared by one who has lived wisely. 
-Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind. 
-Better than a thousand hollow words, is one word that brings peace. 
-Just as a candle cannot burn without fire, men cannot live without a spiritual life. 
-The foot feels the foot when it feels the ground. 
-The only real failure in life is not to be true to the best one knows. 
-With fools, there is no companionship. Rather than to live with men who are selfish, vain, quarrelsome, and obstinate, let a man walk alone. 
-Work out your own salvation. Do not depend on others. 
-Without health life is not life; it is only a state of langour and suffering - an image of death. 
-To live a pure unselfish life, one must count nothing as one's own in the midst of abundance. 
-He who loves 50 people has 50 woes; he who loves no one has no woes. 
-To be idle is a short road to death and to be diligent is a way of life; foolish people are idle, wise people are diligent. 
-Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind. To walk safely through the maze of human life, one needs the light of wisdom and the guidance of virtue. 
-Chaos is inherent in all compounded things. Strive on with diligence. 
-Unity can only be manifested by the Binary. Unity itself and the idea of Unity are already two. 
-Whatever words we utter should be chosen with care for people will hear them and be influenced by them for good or ill. 
-I am not the first Buddha who came upon Earth, nor shall I be the last. In due time, another Buddha will arise in the world - a Holy One, a supremely enlightened One, endowed with wisdom in conduct, auspicious, knowing the universe, an incomparable leader of men, a master of angels and mortals. 
-In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves. 
-He who walks in the eightfold noble path with unswerving determination is sure to reach Nirvana. 
-A jug fills drop by drop. 
-Better than worshiping gods is obedience to the laws of righteousness. 
-He who gives away shall have real gain. He who subdues himself shall be free; he shall cease to be a slave of passions. The righteous man casts off evil, and by rooting out lust, bitterness, and illusion do we reach Nirvana. 
-I was born into the world as the king of truth for the salvation of the world. 
-Virtue is persecuted more by the wicked than it is loved by the good. 
-All wrong-doing arises because of mind. If mind is transformed can wrong-doing remain? 
-Charity bestowed upon those who are worthy of it is like good seed sown on a good soil that yields an abundance of fruits. But alms given to those who are yet under the tyrannical yoke of the passions are like seed deposited in a bad soil. The passions of the receiver of the alms choke, as it were, the growth of merits. 
-The wise ones fashioned speech with their thought, sifting it as grain is sifted through a sieve. 
-The foolish man conceives the idea of 'self.' The wise man sees there is no ground on which to build the idea of 'self;' thus, he has a right conception of the world and well concludes that all compounds amassed by sorrow will be dissolved again, but the truth will remain. 
-I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act. 
-Let my skin and sinews and bones dry up, together with all the flesh and blood of my body! I welcome it! But I will not move from this spot until I have attained the supreme and final wisdom. 
-When one has the feeling of dislike for evil, when one feels tranquil, one finds pleasure in listening to good teachings; when one has these feelings and appreciates them, one is free of fear. 
-Of those beings who live in ignorance, shut up and confined, as it were, in an egg, I have first broken the eggshell of ignorance and alone in the universe obtained the most exalted, universal Buddhahood. 
-The virtues, like the Muses, are always seen in groups. A good principle was never found solitary in any breast. 
-What is the appropriate behavior for a man or a woman in the midst of this world, where each person is clinging to his piece of debris? What's the proper salutation between people as they pass each other in this flood? 
+Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.
+--
+Three things cannot be long hidden: the sun, the moon, and the truth.
+--
+Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.
+--
+Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.
+--
+Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship.
+--
+We are shaped by our thoughts; we become what we think. When the mind is pure, joy follows like a shadow that never leaves.
+--
+You, yourself, as much as anybody in the entire universe, deserve your love and affection.
+--
+The mind is everything. What you think you become.
+--
+No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.
+--
+Peace comes from within. Do not seek it without.
+--
+To keep the body in good health is a duty... otherwise we shall not be able to keep our mind strong and clear.
+--
+We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world.
+--
+You can search throughout the entire universe for someone who is more deserving of your love and affection than you are yourself, and that person is not to be found anywhere. You yourself, as much as anybody in the entire universe deserve your love and affection.
+--
+It is better to conquer yourself than to win a thousand battles. Then the victory is yours. It cannot be taken from you, not by angels or by demons, heaven or hell.
+--
+What we think, we become.
+--
+There are only two mistakes one can make along the road to truth; not going all the way, and not starting.
+--
+You will not be punished for your anger, you will be punished by your anger.
+--
+Hatred does not cease by hatred, but only by love; this is the eternal rule.
+--
+A woman of the world is anxious to exhibit her form and shape, whether walking, standing, sitting, or sleeping. Even when represented as a picture, she desires to captivate with the charms of her beauty and, thus, to rob men of their steadfast heart.
+--
+To enjoy good health, to bring true happiness to one's family, to bring peace to all, one must first discipline and control one's own mind. If a man can control his mind he can find the way to Enlightenment, and all wisdom and virtue will naturally come to him.
+--
+It is a man's own mind, not his enemy or foe, that lures him to evil ways.
+--
+I never see what has been done; I only see what remains to be done.
+--
+It is better to travel well than to arrive.
+--
+However many holy words you read, however many you speak, what good will they do you if you do not act on upon them?
+--
+Better than a thousand hollow words, is one word that brings peace.
+--
+With fools, there is no companionship. Rather than to live with men who are selfish, vain, quarrelsome, and obstinate, let a man walk alone.
+--
+The only real failure in life is not to be true to the best one knows.
+--
+Even death is not to be feared by one who has lived wisely.
+--
+Do not overrate what you have received, nor envy others. He who envies others does not obtain peace of mind.
+--
+Just as a candle cannot burn without fire, men cannot live without a spiritual life.
+--
+Those who are free of resentful thoughts surely find peace.
+--
+Whatever words we utter should be chosen with care for people will hear them and be influenced by them for good or ill.
+--
+Without health life is not life; it is only a state of langour and suffering - an image of death.
+--
+Work out your own salvation. Do not depend on others.
+--
+The foot feels the foot when it feels the ground.
+--
+In a controversy the instant we feel anger we have already ceased striving for the truth, and have begun striving for ourselves.
+--
+He who loves 50 people has 50 woes; he who loves no one has no woes.
+--
+To live a pure unselfish life, one must count nothing as one's own in the midst of abundance.
+--
+I am not the first Buddha who came upon Earth, nor shall I be the last. In due time, another Buddha will arise in the world - a Holy One, a supremely enlightened One, endowed with wisdom in conduct, auspicious, knowing the universe, an incomparable leader of men, a master of angels and mortals.
+--
+Chaos is inherent in all compounded things. Strive on with diligence.
+--
+Just as treasures are uncovered from the earth, so virtue appears from good deeds, and wisdom appears from a pure and peaceful mind. To walk safely through the maze of human life, one needs the light of wisdom and the guidance of virtue.
+--
+A jug fills drop by drop.
+--
+He who walks in the eightfold noble path with unswerving determination is sure to reach Nirvana.
+--
+Better than worshiping gods is obedience to the laws of righteousness.
+--
+He who gives away shall have real gain. He who subdues himself shall be free; he shall cease to be a slave of passions. The righteous man casts off evil, and by rooting out lust, bitterness, and illusion do we reach Nirvana.
+--
+Unity can only be manifested by the Binary. Unity itself and the idea of Unity are already two.
+--
+To be idle is a short road to death and to be diligent is a way of life; foolish people are idle, wise people are diligent.
+--
+I was born into the world as the king of truth for the salvation of the world.
+--
+All wrong-doing arises because of mind. If mind is transformed can wrong-doing remain?
+--
+The foolish man conceives the idea of 'self.' The wise man sees there is no ground on which to build the idea of 'self;' thus, he has a right conception of the world and well concludes that all compounds amassed by sorrow will be dissolved again, but the truth will remain.
+--
+I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on them unless they act.
+--
+The wise ones fashioned speech with their thought, sifting it as grain is sifted through a sieve.
+--
+Virtue is persecuted more by the wicked than it is loved by the good.
+--
+Charity bestowed upon those who are worthy of it is like good seed sown on a good soil that yields an abundance of fruits. But alms given to those who are yet under the tyrannical yoke of the passions are like seed deposited in a bad soil. The passions of the receiver of the alms choke, as it were, the growth of merits.
+--
+Of those beings who live in ignorance, shut up and confined, as it were, in an egg, I have first broken the eggshell of ignorance and alone in the universe obtained the most exalted, universal Buddhahood.
+--
+Let my skin and sinews and bones dry up, together with all the flesh and blood of my body! I welcome it! But I will not move from this spot until I have attained the supreme and final wisdom.
+--
+When one has the feeling of dislike for evil, when one feels tranquil, one finds pleasure in listening to good teachings; when one has these feelings and appreciates them, one is free of fear.
+--
+The virtues, like the Muses, are always seen in groups. A good principle was never found solitary in any breast.
+--
+What is the appropriate behavior for a man or a woman in the midst of this world, where each person is clinging to his piece of debris? What's the proper salutation between people as they pass each other in this flood?
+--
+      “No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.”    ―      Gautama Buddha,  Sayings Of Buddha
+--
+      “Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.”    ―      Buddha  
+--
+      “A man is not called wise because he talks and talks again; but if he is peaceful, loving and fearless then he is in truth called wise.”    ―      Dhammapada,  The Dhammapada: The Sayings of the Buddha
+--
+      “If the problem can be solved why worry? If the problem cannot be solved worrying will do you no good.”    ―      Shantideva  
+--
+      “There is no fire like passion, there is no shark like hatred, there is no snare like folly, there is no torrent like greed.”    ―      Siddharta Gautama  
+--
+      “Purity or impurity depends on oneself,No one can purify another.”    ―      Tipitaka. Suttapitaka. Khuddakanikaya. Dhammapada. English & Pali  
+--
+      “True love is born from understanding.”    ―      The Buddha  
+--
+      “Everything that comes together falls apart. Everything. The chair I’m sitting on. It was built, and so it will fall apart. I’m gonna fall apart, probably before this chair. And you’re gonna fall apart. The cells and organs and systems that make you you—they came together, grew together, and so must fall apart. The Buddha knew one thing science didn’t prove for millennia after his death: Entropy increases. Things fall apart.”    ―      John Green,  Looking for Alaska
+--
+      “Long is the night to him who is awake; long is a mile to him who is tired; long is life to the foolish who do not know the true law.”    ―      Siddhārtha Gautama  
+--
+      “Why should we place Christ at the top and summit of the human race? Was he kinder, more forgiving, more self-sacrificing than Buddha? Was he wiser, did he meet death with more perfect calmness, than Socrates? Was he more patient, more charitable, than Epictetus? Was he a greater philosopher, a deeper thinker, than Epicurus? In what respect was he the superior of Zoroaster? Was he gentler than Lao-tsze, more universal than Confucius? Were his ideas of human rights and duties superior to those of Zeno? Did he express grander truths than Cicero? Was his mind subtler than Spinoza’s? Was his brain equal to Kepler’s or Newton’s? Was he grander in death – a sublimer martyr than Bruno? Was he in intelligence, in the force and beauty of expression, in breadth and scope of thought, in wealth of illustration, in aptness of comparison, in knowledge of the human brain and heart, of all passions, hopes and fears, the equal of Shakespeare, the greatest of the human race?”    ―      Robert G. Ingersoll,  About The Holy Bible
+--
+      “When you dig a well, there's no sign of water until you reach it, only rocks and dirt to move out of the way. You have removed enough; soon the pure water will flow," said Buddha.”    ―      Deepak Chopra  
+--
+      “If in our daily life we can smile, if we can be peaceful and happy, not only we, but everyone will profit from it. This is the most basic kind of peace work.”    ―      Thich Nhat Hanh,  Being Peace
+--
+      “It is a man's own mind, not his enemy or foe, that lures him to evil ways.”    ―      Siddhārtha Gautama   
+--
+      “You are the community now. Be a lamp for yourselves. Be your own refuge. Seek for no other. All things must pass. Strive on diligently. Don’t give up.”    ―      Buddha  
+--
+      “The Way is not in the sky; the Way is in the heart.”    ―      Gautama Buddha  
+--
+      “Whether our action is wholesome or unwholesome depends on whether that action or deed arises from a disciplined or undisciplined state of mind. It is felt that a disciplined mind leads to happiness and an undisciplined mind leads to suffering, and in fact it is said that bringing about discipline within one's mind is the essence of the Buddha's teaching.”    ―      Dalai Lama XIV,  The Art of Happiness
+--
+      “It is not what you can do for your country, but what you can do for all of mankind.”    ―      Mike  Norton  
+--
+      “Truth is the same always. Whoever ponders it will get the same answer. Buddha got it. Patanjali got it. Jesus got it. Mohammed got it. The answer is the same, but the method of working it out may vary this way or that. (115)”    ―      Sri S. Satchidananda,  The Yoga Sutras
+--
+      “Buddha says there are two kinds of suffering: the kind that leads to more suffering and the kind that brings an end to suffering.”    ―      Terry Tempest Williams,  Refuge: An Unnatural History of Family and Place
+--
+      “There is nothing so disobedient as an undisciplined mind, and there is nothing so obedient as a disciplined mind.”    ―      Gautama Buddha  
+--
+      “I guess if I had to pick a spiritual figurehead to possess the deed to the entirety of Earth, I'd go with Buddha, but only because he wouldn't want it.”    ―      Sarah Vowell,  Unfamiliar Fishes
+--
+      “Thus Gotama [Buddha] walked toward the town to gather alms, and the two samanas recognized him solely by the perfection of his repose, by the calmness of his figure, in which there was no trace of seeking, desiring, imitating, or striving, only light and peace”    ―      Hermann Hesse,  Siddhartha
+--
+      “There is a simple way to become buddha: When you refrain from unwholesome actions, are not attached to birth and death, and are compassionate toward all sentient beings, respectful to seniors and kind to juniors, not excluding or desiring anything, with no designing thoughts or worries, you will be called a buddha. Do not seek anything else.”    ―      Dōgen,  Moon in a Dewdrop: Writings of Zen Master Dogen
+--
+      “These are the three stages of enlightenment, the three glimpses of satori.  1. The first stage enlightenment:A Glimpse of the WholeThe first stage of enlightenment is short glimpse from faraway of the whole. It is a short glimpse of being. The first stage of enlightenment is when, for the first time, for a single moment the mind is not functioning. The ordinary ego is still present at the first stage of enlightenment, but you experience for a short while that there is something beyond the ego. There is a gap, a silence and emptiness, where there is not thought between you and existence. You and existence meet and merge for a moment. And for the first time the seed, the thirst and longing, for enlightenment, the meeting between you and existence, will grow in your heart. 2. The second stage of enlightenment:Silence, Relaxation, Togetherness, Inner BeingThe second stage of enlightenment is a new order, a harmony, from within, which comes from the inner being. It is the quality of freedom.The inner chaos has disappeared and a new silence, relaxation and togetherness has arisen.Your own wisdom from within has arisen.A subtle ego is still present in the second stage of enlightenment. The Hindus has three names for the ego:1. Ahamkar, which is the ordinary ego.2. Asmita, which is the quality of Am-ness, of no ego. It is a very silent ego, not aggreessive, but it is still a subtle ego.3. Atma, the third word is Atma, when the Am-ness is also lost. This is what Buddha callas no-self, pure being.In the second stage of enlightenment you become capable of being in the inner being, in the gap, in the meditative quality within, in the silence and emptiness.For hours, for days, you can remain in the gap, in utter aloneness, in God. Still you need effort to remain in the gap, and if you drop the effort, the gap will disappear. Love, meditation and prayer becomes the way to increase the effort in the search for God. Then the second stage becomes a more conscious effort. Now you know the way, you now the direction. 3. The third stage of enlightenment: Ocean, Wholeness, No-self, Pure beingAt the third stage of enlightenment, at the third step of Satori, our individual river flowing silently, suddenly reaches to the Ocean and becomes one with the Ocean.At the third Satori, the ego is lost, and there is Atma, pure being. You are, but without any boundaries. The river has become the Ocean, the Whole.It has become a vast emptiness, just like the pure sky. The third stage of enlightenment happens when you have become capable of finding the inner being, the meditative quality within, the gap, the inner silence and emptiness, so that it becomes a natural quality. You can find the gap whenever you want.This is what tantra callas Mahamudra, the great orgasm, what Buddha calls Nirvana, what Lao Tzu calls Tao and what Jesus calls the kingdom of God.You have found the door to God. You have come home.”    ―      Swami Dhyan Giten  
+--
+      “Embrace nothing:If you meet the Buddha, kill the Buddha.If you meet your father, kill your father.Only live your life as it is,Not bound to anything.”    ―      Gautama Siddharta  
+--
+      “The Four Noble Truths are pragmatic rather than dogmatic. They suggest a course of action to be followed rather than a set of dogmas to be believed. The four truths are prescriptions for behavior rather than descriptions of reality. The Buddha compares himself to a doctor who offers a course of therapeutic treatment to heal one’s ills. To embark on such a therapy is not designed to bring one any closer to ‘the Truth’ but to enable one’s life to flourish here and now, hopefully leaving a legacy that will continue to have beneficial repercussions after one’s death. (154)”    ―      Stephen Batchelor,  Confession of a Buddhist Atheist
+--
+      “You see pictures of Buddha and he’s sitting, reclining, at peace. The Hindus have their twelve-armed elephant god, who also seems so content but not powerless. But leave it to Christians to have a dead and bloody man nailed to a cross.”    ―      Dave Eggers,  Your Fathers, Where Are They? And the Prophets, Do They Live Forever?
+--
+      “The words of the Buddha offer this truth: ∼ Hatred never ceases by hatred but by love alone is healed.”    ―      Jack Kornfield,  The Art of Forgiveness, Lovingkindness, and Peace
+--
+      “Consider the sunlight. You may see it is near, yet if you follow it from world to world you will never catch it in your hands. Then you may describe it as far away and, lo, you will see it just before your eyes. Follow it and, behold, it escapes you; run from it and it follows you close. You can neither possess it nor have done with it. From this example you can understand how it is with the true Nature of all things and, henceforth, there will be no need to grieve or to worry about such things.”    ―      Huang Po,  The Zen Teaching of Huang Po: On the Transmission of Mind
+--
+      “It [mind of absolute reality] is everywhere and nowhere. It’s somewhat like sky—so completely integrated with our existence that we never stop to question its reality or to recognize its qualities.”    ―      Yongey Mingyur,  In Love with the World: A Monk's Journey Through the Bardos of Living and Dying
+--

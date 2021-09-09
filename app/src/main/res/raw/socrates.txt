@@ -1,44 +1,88 @@
-The only true wisdom is in knowing you know nothing. 
-The unexamined life is not worth living. 
-I am the wisest man alive, for I know one thing, and that is that I know nothing. 
-By all means, marry. If you get a good wife, you'll become happy; if you get a bad one, you'll become a philosopher. 
-I know that I am intelligent, because I know that I know nothing. 
-To know, is to know that you know nothing. That is the meaning of true knowledge. 
-True knowledge exists in knowing that you know nothing. 
-He is richest who is content with the least, for content is the wealth of nature. 
-True wisdom comes to each of us when we realize how little we understand about life, ourselves, and the world around us. 
-Beware the barrenness of a busy life. 
-Wisdom begins in wonder. 
-All men's souls are immortal, but the souls of the righteous are immortal and divine. 
-Once made equal to man, woman becomes his superior. 
-The greatest way to live with honor in this world is to be what we pretend to be. 
-Death may be the greatest of all human blessings. 
-Let him that would move the world first move himself. 
-Worthless people live only to eat and drink; people of worth eat and drink only to live. 
-Employ your time in improving yourself by other men's writings, so that you shall gain easily what others have labored hard for. 
-Be slow to fall into friendship; but when thou art in, continue firm and constant. 
-Be as you wish to seem. 
-An honest man is always a child. 
-Beauty is a short-lived tyranny. 
-Our prayers should be for blessings in general, for God knows best what is good for us. 
-A system of morality which is based on relative emotional values is a mere illusion, a thoroughly vulgar conception which has nothing sound in it and nothing true. 
-He is a man of courage who does not run away, but remains at his post and fights against the enemy. 
-False words are not only evil in themselves, but they infect the soul with evil. 
-From the deepest desires often come the deadliest hate. 
-I know nothing except the fact of my ignorance. 
-It is not living that matters, but living rightly. 
-Not life, but good life, is to be chiefly valued. 
-The way to gain a good reputation is to endeavor to be what you desire to appear. 
-I was really too honest a man to be a politician and live. 
-If all misfortunes were laid in one common heap whence everyone must take an equal portion, most people would be contented to take their own and depart. 
-Beauty is the bait which with delight allures man to enlarge his kind. 
-The end of life is to be like God, and the soul following God will be like Him. 
-One who is injured ought not to return the injury, for on no account can it be right to do an injustice; and it is not right to return an injury, or to do evil to any man, however much we have suffered from him. 
-I decided that it was not wisdom that enabled poets to write their poetry, but a kind of instinct or inspiration, such as you find in seers and prophets who deliver all their sublime messages without knowing in the least what they mean. 
-No evil can happen to a good man, either in life or after death. He and his are not neglected by the gods. 
-As to marriage or celibacy, let a man take which course he will, he will be sure to repent. 
-Ordinary people seem not to realize that those who really apply themselves in the right way to philosophy are directly and of their own accord preparing themselves for dying and death. 
-If a man is proud of his wealth, he should not be praised until it is known how he employs it. 
-I only wish that ordinary people had an unlimited capacity for doing harm; then they might have an unlimited power for doing good. 
-The poets are only the interpreters of the gods. 
-Where there is reverence there is fear, but there is not reverence everywhere that there is fear, because fear presumably has a wider extension than reverence. 
+The only true wisdom is in knowing you know nothing.
+--
+I am the wisest man alive, for I know one thing, and that is that I know nothing.
+--
+By all means, marry. If you get a good wife, you'll become happy; if you get a bad one, you'll become a philosopher.
+--
+I know that I am intelligent, because I know that I know nothing.
+--
+To know, is to know that you know nothing. That is the meaning of true knowledge.
+--
+The unexamined life is not worth living.
+--
+True knowledge exists in knowing that you know nothing.
+--
+True wisdom comes to each of us when we realize how little we understand about life, ourselves, and the world around us.
+--
+He is richest who is content with the least, for content is the wealth of nature.
+--
+Beware the barrenness of a busy life.
+--
+Once made equal to man, woman becomes his superior.
+--
+Wisdom begins in wonder.
+--
+Death may be the greatest of all human blessings.
+--
+Let him that would move the world first move himself.
+--
+All men's souls are immortal, but the souls of the righteous are immortal and divine.
+--
+Worthless people live only to eat and drink; people of worth eat and drink only to live.
+--
+The greatest way to live with honor in this world is to be what we pretend to be.
+--
+Be as you wish to seem.
+--
+An honest man is always a child.
+--
+Employ your time in improving yourself by other men's writings, so that you shall gain easily what others have labored hard for.
+--
+Be slow to fall into friendship; but when thou art in, continue firm and constant.
+--
+He is a man of courage who does not run away, but remains at his post and fights against the enemy.
+--
+Our prayers should be for blessings in general, for God knows best what is good for us.
+--
+From the deepest desires often come the deadliest hate.
+--
+Beauty is a short-lived tyranny.
+--
+A system of morality which is based on relative emotional values is a mere illusion, a thoroughly vulgar conception which has nothing sound in it and nothing true.
+--
+False words are not only evil in themselves, but they infect the soul with evil.
+--
+I know nothing except the fact of my ignorance.
+--
+It is not living that matters, but living rightly.
+--
+No evil can happen to a good man, either in life or after death. He and his are not neglected by the gods.
+--
+Not life, but good life, is to be chiefly valued.
+--
+I was really too honest a man to be a politician and live.
+--
+The end of life is to be like God, and the soul following God will be like Him.
+--
+Ordinary people seem not to realize that those who really apply themselves in the right way to philosophy are directly and of their own accord preparing themselves for dying and death.
+--
+Beauty is the bait which with delight allures man to enlarge his kind.
+--
+If all misfortunes were laid in one common heap whence everyone must take an equal portion, most people would be contented to take their own and depart.
+--
+The way to gain a good reputation is to endeavor to be what you desire to appear.
+--
+As to marriage or celibacy, let a man take which course he will, he will be sure to repent.
+--
+One who is injured ought not to return the injury, for on no account can it be right to do an injustice; and it is not right to return an injury, or to do evil to any man, however much we have suffered from him.
+--
+If a man is proud of his wealth, he should not be praised until it is known how he employs it.
+--
+I decided that it was not wisdom that enabled poets to write their poetry, but a kind of instinct or inspiration, such as you find in seers and prophets who deliver all their sublime messages without knowing in the least what they mean.
+--
+I only wish that ordinary people had an unlimited capacity for doing harm; then they might have an unlimited power for doing good.
+--
+The poets are only the interpreters of the gods.
+--
+Where there is reverence there is fear, but there is not reverence everywhere that there is fear, because fear presumably has a wider extension than reverence.
+--
