@@ -5,7 +5,12 @@ from bs4 import BeautifulSoup
 import sys
 import re
 
-selector = {"www.goodreads.com": ".quoteText", "www.brainyquote.com": ".b-qt"}
+selector = {
+	"www.goodreads.com": ".quoteText",
+	"www.brainyquote.com": ".b-qt",
+	"www.santabanta.com": ".display_block td",
+	"www.keepinspiring.me": ".wp-block-quote"
+}
 
 class GetQuotes:
 	def __init__(self):
