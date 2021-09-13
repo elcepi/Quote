@@ -21,7 +21,7 @@ class GetQuotes:
 
 	def process(self):
 		for a in self.soup.select(self.cssSel):
-			print(re.sub("\n\n*","",a.get_text()))
+			print(re.sub("\n+","\n",a.get_text()))
 			print("--")
 
 GetQuotes().process()
