@@ -6,10 +6,11 @@ import sys
 import re
 
 selector = {
-	"www.goodreads.com": ".quoteText",
-	"www.brainyquote.com": ".b-qt",
-	"www.santabanta.com": ".display_block td",
-	"www.keepinspiring.me": ".wp-block-quote"
+	"www.goodreads.com": [".quoteText"],
+	"www.brainyquote.com": [".b-qt"],
+	"www.santabanta.com": [".display_block td"],
+	"www.keepinspiring.me": [".wp-block-quote"],
+	"www.morefamousquotes.com": [".quote > p > a", ".quote > script+p > :not(a)"],
 }
 
 class GetQuotes:
@@ -20,9 +21,11 @@ class GetQuotes:
 		super().__init__()
 
 	def process(self):
-		for a in self.soup.select(self.cssSel):
-			print(re.sub("\n+","\n",a.get_text()))
-			print("--")
+		for s in self.cssSel:
+			#print(s, self.soup.select(s))
+			for a in self.soup.select(s):
+				print(re.sub("\n+","\n",a.get_text()))
+				print("--")
 
 GetQuotes().process()
 
