@@ -11,6 +11,7 @@ selector = {
 	"www.santabanta.com": [".display_block td"],
 	"www.keepinspiring.me": [".wp-block-quote"],
 	"www.morefamousquotes.com": [".quote > p > a", ".quote > script+p > :not(a)"],
+	"bayart.org": [".wp-block-quote"]
 }
 
 class GetQuotes:
@@ -24,7 +25,7 @@ class GetQuotes:
 		for s in self.cssSel:
 			#print(s, self.soup.select(s))
 			for a in self.soup.select(s):
-				print(re.sub("\n+","\n",a.get_text()))
+				print(re.sub("\n+|–.*","\n",a.get_text()))
 				print("--")
 
 GetQuotes().process()
