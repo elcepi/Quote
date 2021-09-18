@@ -11,7 +11,8 @@ selector = {
 	"www.santabanta.com": [".display_block td"],
 	"www.keepinspiring.me": [".wp-block-quote"],
 	"www.morefamousquotes.com": [".quote > p > a", ".quote > script+p > :not(a)"],
-	"bayart.org": [".wp-block-quote"]
+	"bayart.org": [".wp-block-quote"],
+	"citatis.com": ["blockquote"],
 }
 
 class GetQuotes:
