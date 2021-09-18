@@ -13,6 +13,7 @@ selector = {
 	"www.morefamousquotes.com": [".quote > p > a", ".quote > script+p > :not(a)"],
 	"bayart.org": [".wp-block-quote"],
 	"citatis.com": ["blockquote"],
+	"quotestats.com": ["blockquote"],
 }
 
 class GetQuotes:
@@ -24,10 +25,15 @@ class GetQuotes:
 
 	def process(self):
 		for s in self.cssSel:
-			#print(s, self.soup.select(s))
 			for a in self.soup.select(s):
-				print(re.sub("–.*|”|“","",re.sub("\n+","\n",a.get_text())))
-				print("--")
+				line  = a.get_text()
+				if line:
+					line = re.sub("\n+","\n",line)
+					line = re.sub("–.*|”|“|#[0-9]+\\.\\s","",line)
+					line = re.sub("^\s+", "", line)
+					line = re.sub("\s+$", "", line)
+					print(line)
+					print("--")
 
 GetQuotes().process()
 
