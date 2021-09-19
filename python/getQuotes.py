@@ -14,6 +14,7 @@ selector = {
 	"bayart.org": [".wp-block-quote"],
 	"citatis.com": ["blockquote"],
 	"quotestats.com": ["blockquote"],
+        "upjourney.com": ["h2~p > em"],
 }
 
 class GetQuotes:
@@ -29,7 +30,7 @@ class GetQuotes:
 				line  = a.get_text()
 				if line:
 					line = re.sub("\n+","\n",line)
-					line = re.sub("–.*|”|“|#[0-9]+\\.\\s","",line)
+					line = re.sub("–.*|”|“|$#?[0-9]+\\.\\s","",line)
 					line = re.sub("^\s+", "", line)
 					line = re.sub("\s+$", "", line)
 					print(line)
