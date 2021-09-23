@@ -16,6 +16,7 @@ selector = {
 	"quotestats.com": ["blockquote"],
         "upjourney.com": ["h2~p > em"],
 	"www.ascensiongateway.com": ["font > ul > li > font"],
+	"www.azquotes.com": ["a.title"],
 }
 
 remove = {
