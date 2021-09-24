@@ -17,6 +17,7 @@ selector = {
         "upjourney.com": ["h2~p > em"],
 	"www.ascensiongateway.com": ["font > ul > li > font"],
 	"www.azquotes.com": ["a.title"],
+	"www.greatsayings.net": [".quote"]
 }
 
 remove = {
@@ -27,7 +28,7 @@ class GetQuotes:
 	def __init__(self):
 		host = urllib3.get_host(sys.argv[1])[1]
 		self.cssSel = selector.get(host)
-		self.cssSelRem = selector.get(host)
+		self.cssSelRem = remove.get(host)
 		self.soup = BeautifulSoup(urllib3.PoolManager().request("GET", sys.argv[1]).data.decode("utf-8"), "html.parser")
 		super().__init__()
 
@@ -42,7 +43,7 @@ class GetQuotes:
 					line  = a.get_text()
 					if line:
 						line = re.sub("\s+"," ",line)
-						line = re.sub("–.*|”|“|$#?[0-9]+\\.\\s+|-","",line)
+						line = re.sub("–.*|”|“|$#?[0-9]+\\.\\s+|-|—","",line)
 						line = re.sub("[\s|\n]+$", "\n", line)
 
 						print(line)
