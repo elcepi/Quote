@@ -1,9 +1,9 @@
 package com.knowyourself.quote;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.knowyourself.quote.model.Author;
 import com.knowyourself.quote.model.Quotes;

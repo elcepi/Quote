@@ -1,5 +1,7 @@
 package com.knowyourself.quote.model;
 
+import com.knowyourself.quote.model.Quotes;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -36,7 +38,7 @@ public final class Author {
             try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
                 String line;
                 while ((line = br.readLine()) != null) {
-                    quotes.add(new Quotes(line + " -- " + name + "\n=="));
+                    quotes.add(new Quotes(line, name));
                 }
             }
         }
