@@ -1,8 +1,11 @@
 package com.knowyourself.quote.model;
 
+import androidx.annotation.NonNull;
+
 import com.knowyourself.quote.model.Quotes;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,11 +13,11 @@ import java.util.List;
 
 public final class Author {
     private final String name;
-    private final  String fileName;
-    private final  Boolean selected;
+    private final String fileName;
+    private final Boolean selected;
 
-    public Author(String fileName, Boolean selected) {
-        this.name = fileName.replaceAll("^.*/(\\*[.])[^.]+$", "$1");
+    public Author(String name, String fileName, Boolean selected) {
+        this.name = new File(fileName).getName();
         this.fileName = fileName;
         this.selected = selected;
     }
@@ -31,6 +34,7 @@ public final class Author {
         return selected;
     }
 
+    @NonNull
     public List<Quotes> getQuotes() throws IOException {
         List<Quotes> quotes = new ArrayList<>();
 
@@ -38,7 +42,9 @@ public final class Author {
             try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
                 String line;
                 while ((line = br.readLine()) != null) {
-                    quotes.add(new Quotes(line, name));
+                    if(!line.equals("--")) {
+                        quotes.add(new Quotes(line, name));
+                    }
                 }
             }
         }

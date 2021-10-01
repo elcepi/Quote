@@ -2,14 +2,15 @@ package com.knowyourself.quote;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
+import androidx.annotation.RawRes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.knowyourself.quote.model.Author;
 import com.knowyourself.quote.model.Quotes;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,6 +18,7 @@ import java.io.OutputStream;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         fillAvailableQuotes();
 
         getRandomQuote();
+
+        TextView textView = findViewById(R.id.quote);
+        textView.setText(currentQuote.toString());
     }
 
     private void getRandomQuote() {
@@ -48,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
     private void fillAvailableQuotes() {
         for (Author a:authors) {
             try {
-                quotes.addAll(a.getQuotes());
+                if(a.isSelected()) {
+                    quotes.addAll(a.getQuotes());
+                }
             } catch (IOException e) {
                 Log.e(TAG,"Error getting quites from files", e);
             }
@@ -56,24 +63,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fillAvailableAuthors() {
-        for(String p:dir.list()) {
-            authors.add(new Author(p,true));
+        for(String p: Objects.requireNonNull(dir.list())) {
+            authors.add(new Author(p, new File(dir, p).getAbsolutePath(),true));
         }
     }
 
     private void crateDirAndCopyFile() {
-        Field[] fields = R.raw.class.getDeclaredFields();
-        for (Field field : fields) {
-            try {
-                copy(field.getName(), dir.getAbsolutePath() + field.getName());
-            } catch (IOException e) {
-                Log.e(TAG,"Error Copying files", e);
+        if(! dir.exists()) {
+            dir.mkdirs();
+            Field[] fields = R.raw.class.getDeclaredFields();
+            for (Field field : fields) {
+                try {
+                    copy((Integer)field.get(null), new File(dir.getAbsolutePath(), field.getName()));
+                } catch (IOException | IllegalAccessException e) {
+                    Log.e(TAG,"Error Copying files", e);
+                }
             }
         }
     }
 
-    private static void copy(String src, String dst) throws IOException {
-        try (InputStream in = new FileInputStream(src)) {
+    private void copy(@RawRes int rawIdSrc, File dst) throws IOException {
+        try (InputStream in = getResources().openRawResource(rawIdSrc)) {
             try (OutputStream out = new FileOutputStream(dst)) {
                 // Transfer bytes from in to out
                 byte[] buf = new byte[1024];
