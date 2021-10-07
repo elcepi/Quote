@@ -1,7 +1,10 @@
 package com.knowyourself.quote;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.RawRes;
@@ -42,7 +45,24 @@ public class MainActivity extends AppCompatActivity {
         getRandomQuote();
 
         TextView textView = findViewById(R.id.quote);
-        textView.setText(currentQuote.toString());
+        textView.setText(currentQuote.toShareString());
+
+        ImageButton im= (ImageButton) findViewById(R.id.share);
+        im.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v){
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, currentQuote.toShareString());
+                sendIntent.setType("text/plain");
+//              sendIntent.setClassName("com.facebook.katana",
+//                        "com.facebook.katana.ShareLinkActivity");
+                Intent shareIntent = Intent.createChooser(sendIntent, null);
+                startActivityForResult(shareIntent, 0);
+            }
+        });
+
     }
 
     private void getRandomQuote() {
