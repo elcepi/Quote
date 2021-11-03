@@ -1,8 +1,8 @@
 package com.knowyourself.quote.model;
 
-import androidx.annotation.NonNull;
+import android.util.Log;
 
-import com.knowyourself.quote.model.Quotes;
+import androidx.annotation.NonNull;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,7 +16,7 @@ public final class Author {
     private final String fileName;
     private final Boolean selected;
 
-    public Author(String name, String fileName, Boolean selected) {
+    public Author(String fileName, Boolean selected) {
         this.name = new File(fileName).getName();
         this.fileName = fileName;
         this.selected = selected;
@@ -40,10 +40,24 @@ public final class Author {
 
         if(selected) {
             try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+                StringBuilder cName = new StringBuilder();
+                cName.append(Character.toUpperCase(name.charAt(0)));
+
+                for(int i = 1; i<name.length(); i++) {
+                    char a = name.charAt(i);
+                    // TODO: Assumes that after _ there is always a character.
+                    if('_' == a) {
+                        cName.append(' ');
+                        cName.append(Character.toUpperCase(name.charAt(++i)));
+                    } else {
+                        cName.append(a);
+                    }
+                }
+                Log.i("TAG", "aaa  " + cName.toString());
                 String line;
                 while ((line = br.readLine()) != null) {
                     if(!line.equals("--")) {
-                        quotes.add(new Quotes(line, name));
+                        quotes.add(new Quotes(line, cName.toString()));
                     }
                 }
             }
