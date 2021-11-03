@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void fillAvailableAuthors() {
         for(String p: Objects.requireNonNull(dir.list())) {
-            authors.add(new Author(p, new File(dir, p).getAbsolutePath(),true));
+            authors.add(new Author(new File(dir, p).getAbsolutePath(),true));
         }
     }
 
