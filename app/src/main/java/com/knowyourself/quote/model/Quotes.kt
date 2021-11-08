@@ -1,7 +1,5 @@
 package com.knowyourself.quote.model
 
-import java.util.*
-
 data class Quotes(
         val text: String,
         val author: String,
@@ -15,5 +13,10 @@ data class Quotes(
         val START = ""
         val END   = "\n============================================"
         return "$START $this $END"
+    }
+
+    companion object {
+        @kotlin.jvm.JvmField
+        val QUOTE_ID = "quote"
     }
 }
