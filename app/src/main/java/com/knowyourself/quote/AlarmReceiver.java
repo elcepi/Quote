@@ -5,7 +5,13 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
+
 import com.knowyourself.quote.model.Quotes;
+
+import java.util.Calendar;
+import java.util.UUID;
 
 public class AlarmReceiver extends BroadcastReceiver {
     @Override
