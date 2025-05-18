@@ -31,28 +31,39 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     private final static String TAG = MainActivity.class.toString();
+    private File dir;
+    private final List<Author> authors = new ArrayList<>();
+    private final List<Quotes> quotes = new ArrayList<>();
+    private static Quotes currentQuote;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Quotes currentQuote = QuoteSingleton.getInstance(this).getRandomQuote();
+        dir = new File(getApplication().getFilesDir(), "quote");
+
+        crateDirAndCopyFile();
+        fillAvailableAuthors();
+        fillAvailableQuotes();
+
+        getRandomQuote();
 
         createNotificationChannel();
+
         TextView textView = findViewById(R.id.quote);
         textView.setText(currentQuote.toShareString());
 
         Intent alarmIntent = new Intent(this, AlarmReceiver.class);
-//        alarmIntent.putExtra(Quotes.QUOTE_ID, currentQuote.toShareString());
+        alarmIntent.putExtra(Quotes.QUOTE_ID, currentQuote.toShareString());
 
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, alarmIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 0, alarmIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE );
 
         AlarmManager manager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
         manager.cancel(pendingIntent);
 
-//        alarmIntent.setAction(Intent.ACTION_SEND);
-//        alarmIntent.setType("text/plain");
+        alarmIntent.setAction(Intent.ACTION_SEND);
+        alarmIntent.setType("text/plain");
 //              sendIntent.setClassName("com.facebook.katana",
 //                        "com.facebook.katana.ShareLinkActivity");
 
@@ -63,16 +74,57 @@ public class MainActivity extends AppCompatActivity {
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.AM_PM, Calendar.AM);
 
-//        manager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),24*60*60*1000,pendingIntent);
-        manager.setRepeating(AlarmManager.RTC_WAKEUP,Calendar.getInstance().getTimeInMillis() + 2000,24*60*60*1000,pendingIntent);
-
-        String s = getIntent().getStringExtra(Intent.EXTRA_TEXT);
-        Log.d(TAG, "The quite is" + s);
-        getIntent().putExtra("s", currentQuote);
+        manager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),24*60*60*1000,pendingIntent);
     }
 
-    private  Quotes currentQuote() {
+    private void getRandomQuote() {
+        currentQuote = quotes.get((new Random()).nextInt(quotes.size()));
+    }
 
+
+    private void fillAvailableQuotes() {
+        for (Author a:authors) {
+            try {
+                if(a.isSelected()) {
+                    quotes.addAll(a.getQuotes());
+                }
+            } catch (IOException e) {
+                Log.e(TAG,"Error getting quites from files", e);
+            }
+        }
+    }
+
+    private void fillAvailableAuthors() {
+        for(String p: Objects.requireNonNull(dir.list())) {
+            authors.add(new Author(new File(dir, p).getAbsolutePath(),true));
+        }
+    }
+
+    private void crateDirAndCopyFile() {
+        if(! dir.exists()) {
+            dir.mkdirs();
+            Field[] fields = R.raw.class.getDeclaredFields();
+            for (Field field : fields) {
+                try {
+                    copy((Integer)field.get(null), new File(dir.getAbsolutePath(), field.getName()));
+                } catch (IOException | IllegalAccessException e) {
+                    Log.e(TAG,"Error Copying files", e);
+                }
+            }
+        }
+    }
+
+    private void copy(@RawRes int rawIdSrc, File dst) throws IOException {
+        try (InputStream in = getResources().openRawResource(rawIdSrc)) {
+            try (OutputStream out = new FileOutputStream(dst)) {
+                // Transfer bytes from in to out
+                byte[] buf = new byte[1024];
+                int len;
+                while ((len = in.read(buf)) > 0) {
+                    out.write(buf, 0, len);
+                }
+            }
+        }
     }
 
     private void createNotificationChannel() {

@@ -1,130 +1,65 @@
-People are not disturbed by things, but by the view they take of them.
---
-It's not what happens to you, but how you react to it that matters.
---
-We have two ears and one mouth so that we can listen twice as much as we speak.
---
-Only the educated are free.
---
-There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.
---
-The key is to keep company only with people who uplift you, whose presence calls forth your best.
---
-If you want to improve, be content to be thought foolish and stupid.
---
-The greater the difficulty the more glory in surmounting it. Skillful pilots gain their reputation from storms and tempests.
---
-It is the nature of the wise to resist pleasures, but the foolish to be a slave to them.
---
-Know, first, who you are, and then adorn yourself accordingly.
---
-Men are disturbed not by things, but by the view which they take of them.
---
-No man is free who is not master of himself.
---
-The world turns aside to let any man pass who knows where he is going.
---
-First say to yourself what you would be; and then do what you have to do.
---
-Wealth consists not in having great possessions, but in having few wants.
---
-He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.
---
-It is impossible to begin to learn that which one thinks one already knows.
---
-First learn the meaning of what you say, and then speak.
---
-Make the best use of what is in your power, and take the rest as it happens.
---
-You are a little soul carrying around a corpse.
---
-All philosophy lies in two words, sustain and abstain.
---
-Nothing great is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig. I answer you that there must be time. Let it first blossom, then bear fruit, then ripen.
---
-To accuse others for one's own misfortunes is a sign of want of education. To accuse oneself shows that one's education has begun. To accuse neither oneself nor others shows that one's education is complete.
---
-When you are offended at any man's fault, turn to yourself and study your own failings. Then you will forget your anger.
---
-Keep silence for the most part, and speak only when you must, and then briefly.
---
-No great thing is created suddenly.
---
-Never in any case say I have lost such a thing, but I have returned it. Is your child dead? It is a return. Is your wife dead? It is a return. Are you deprived of your estate? Is not this also a return?
---
-The essence of philosophy is that a man should so live that his happiness shall depend as little as possible on external things.
---
-Difficulties are things that show a person what they are.
---
-Freedom is not procured by a full enjoyment of what is desired, but by controlling the desire.
---
-Imagine for yourself a character, a model personality, whose example you determine to follow, in private as well as in public.
---
-If you wish to be a writer, write.
---
-Be careful to leave your sons well instructed rather than rich, for the hopes of the instructed are better than the wealth of the ignorant.
---
-It takes more than just a good looking body. You've got to have the heart and soul to go with it.
---
-Is freedom anything else than the right to live as we wish? Nothing else.
---
-All religions must be tolerated... for every man must get to heaven in his own way.
---
-We should not moor a ship with one anchor, or our life with one hope.
---
-God has entrusted me with myself.
---
-If evil be spoken of you and it be true, correct yourself, if it be a lie, laugh at it.
---
-Freedom is the right to live as we wish.
---
-It is not death or pain that is to be dreaded, but the fear of pain or death.
---
-If one oversteps the bounds of moderation, the greatest pleasures cease to please.
---
-Control thy passions lest they take vengence on thee.
---
-If you seek truth you will not seek victory by dishonorable means, and if you find truth you will become invincible.
---
-Neither should a ship rely on one small anchor, nor should life rest on a single hope.
---
-One that desires to excel should endeavor in those things that are in themselves most excellent.
---
-Practice yourself, for heaven's sake in little things, and then proceed to greater.
---
-There is nothing good or evil save in the will.
---
-If you desire to be good, begin by believing that you are wicked.
---
-Whenever you are angry, be assured that it is not only a present evil, but that you have increased a habit.
---
-Do not seek to bring things to pass in accordance with your wishes, but wish for them as they are, and you will find them.
---
-If thy brother wrongs thee, remember not so much his wrong-doing, but more than ever that he is thy brother.
---
-The two powers which in my opinion constitute a wise man are those of bearing and forbearing.
---
-Silence is safer than speech.
---
-If virtue promises happiness, prosperity and peace, then progress in virtue is progress in each of these for to whatever point the perfection of anything brings us, progress is always an approach toward it.
---
-No greater thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer you that there must be time. Let it first blossom, then bear fruit, then ripen.
---
-Whoever does not regard what he has as most ample wealth, is unhappy, though he be master of the world.
---
-Do not laugh much or often or unrestrainedly.
---
-It is not he who reviles or strikes you who insults you, but your opinion that these things are insulting.
---
-Not every difficult and dangerous thing is suitable for training, but only that which is conducive to success in achieving the object of our effort.
---
-He is a drunkard who takes more than three glasses though he be not drunk.
---
-You may be always victorious if you will never enter into any contest where the issue does not wholly depend upon yourself.
---
-We tell lies, yet it is easy to show that lying is immoral.
---
-Unless we place our religion and our treasure in the same thing, religion will always be sacrificed.
---
-We are not to give credit to the many, who say that none ought to be educated but the free; but rather to the philosophers, who say that the well-educated alone are free.
---
+It's not what happens to you, but how you react to it that matters. 
+We have two ears and one mouth so that we can listen twice as much as we speak. 
+Only the educated are free. 
+There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will. 
+The key is to keep company only with people who uplift you, whose presence calls forth your best. 
+If you want to improve, be content to be thought foolish and stupid. 
+No man is free who is not master of himself. 
+Know, first, who you are, and then adorn yourself accordingly. 
+People are not disturbed by things, but by the view they take of them. 
+The greater the difficulty the more glory in surmounting it. Skillful pilots gain their reputation from storms and tempests. 
+It is the nature of the wise to resist pleasures, but the foolish to be a slave to them. 
+First say to yourself what you would be; and then do what you have to do. 
+He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has. 
+The world turns aside to let any man pass who knows where he is going. 
+Wealth consists not in having great possessions, but in having few wants. 
+It is impossible to begin to learn that which one thinks one already knows. 
+You are a little soul carrying around a corpse. 
+Men are disturbed not by things, but by the view which they take of them. 
+Make the best use of what is in your power, and take the rest as it happens. 
+First learn the meaning of what you say, and then speak. 
+Nothing great is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig. I answer you that there must be time. Let it first blossom, then bear fruit, then ripen. 
+No great thing is created suddenly. 
+All philosophy lies in two words, sustain and abstain. 
+All religions must be tolerated... for every man must get to heaven in his own way. 
+When you are offended at any man's fault, turn to yourself and study your own failings. Then you will forget your anger. 
+To accuse others for one's own misfortunes is a sign of want of education. To accuse oneself shows that one's education has begun. To accuse neither oneself nor others shows that one's education is complete. 
+Never in any case say I have lost such a thing, but I have returned it. Is your child dead? It is a return. Is your wife dead? It is a return. Are you deprived of your estate? Is not this also a return? 
+We should not moor a ship with one anchor, or our life with one hope. 
+Freedom is not procured by a full enjoyment of what is desired, but by controlling the desire. 
+Keep silence for the most part, and speak only when you must, and then briefly. 
+Difficulties are things that show a person what they are. 
+Imagine for yourself a character, a model personality, whose example you determine to follow, in private as well as in public. 
+It takes more than just a good looking body. You've got to have the heart and soul to go with it. 
+It is not death or pain that is to be dreaded, but the fear of pain or death. 
+The essence of philosophy is that a man should so live that his happiness shall depend as little as possible on external things. 
+If one oversteps the bounds of moderation, the greatest pleasures cease to please. 
+Is freedom anything else than the right to live as we wish? Nothing else. 
+If evil be spoken of you and it be true, correct yourself, if it be a lie, laugh at it. 
+God has entrusted me with myself. 
+If you wish to be a writer, write. 
+One that desires to excel should endeavor in those things that are in themselves most excellent. 
+Be careful to leave your sons well instructed rather than rich, for the hopes of the instructed are better than the wealth of the ignorant. 
+Freedom is the right to live as we wish. 
+If you seek truth you will not seek victory by dishonorable means, and if you find truth you will become invincible. 
+If you desire to be good, begin by believing that you are wicked. 
+No greater thing is created suddenly, any more than a bunch of grapes or a fig. If you tell me that you desire a fig, I answer you that there must be time. Let it first blossom, then bear fruit, then ripen. 
+Neither should a ship rely on one small anchor, nor should life rest on a single hope. 
+Practice yourself, for heaven's sake in little things, and then proceed to greater. 
+Do not seek to bring things to pass in accordance with your wishes, but wish for them as they are, and you will find them. 
+If thy brother wrongs thee, remember not so much his wrong-doing, but more than ever that he is thy brother. 
+Whenever you are angry, be assured that it is not only a present evil, but that you have increased a habit. 
+Silence is safer than speech. 
+He is a drunkard who takes more than three glasses though he be not drunk. 
+The two powers which in my opinion constitute a wise man are those of bearing and forbearing. 
+Whoever does not regard what he has as most ample wealth, is unhappy, though he be master of the world. 
+Unless we place our religion and our treasure in the same thing, religion will always be sacrificed. 
+There is nothing good or evil save in the will. 
+Control thy passions lest they take vengence on thee. 
+If virtue promises happiness, prosperity and peace, then progress in virtue is progress in each of these for to whatever point the perfection of anything brings us, progress is always an approach toward it. 
+Do not laugh much or often or unrestrainedly. 
+You may be always victorious if you will never enter into any contest where the issue does not wholly depend upon yourself. 
+We tell lies, yet it is easy to show that lying is immoral. 
+Not every difficult and dangerous thing is suitable for training, but only that which is conducive to success in achieving the object of our effort. 
+It is not he who reviles or strikes you who insults you, but your opinion that these things are insulting. 
+We are not to give credit to the many, who say that none ought to be educated but the free; but rather to the philosophers, who say that the well-educated alone are free. 

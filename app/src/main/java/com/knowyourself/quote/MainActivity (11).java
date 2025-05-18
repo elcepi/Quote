@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent i = getIntent();
+
         Quotes currentQuote = QuoteSingleton.getInstance(this).getRandomQuote();
 
         createNotificationChannel();
@@ -58,21 +60,13 @@ public class MainActivity extends AppCompatActivity {
 
         // Set alarm at 5am
         Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.HOUR_OF_DAY, 5);
-        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.HOUR_OF_DAY, 19);
+        calendar.set(Calendar.MINUTE, 27);
         calendar.set(Calendar.SECOND, 0);
         calendar.set(Calendar.AM_PM, Calendar.AM);
 
-//        manager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),24*60*60*1000,pendingIntent);
-        manager.setRepeating(AlarmManager.RTC_WAKEUP,Calendar.getInstance().getTimeInMillis() + 2000,24*60*60*1000,pendingIntent);
-
-        String s = getIntent().getStringExtra(Intent.EXTRA_TEXT);
-        Log.d(TAG, "The quite is" + s);
-        getIntent().putExtra("s", currentQuote);
-    }
-
-    private  Quotes currentQuote() {
-
+        manager.setRepeating(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),24*60*60*1000,pendingIntent);
+//        manager.setRepeating(AlarmManager.RTC_WAKEUP,Calendar.getInstance().getTimeInMillis() + 5000,24*60*60*1000,pendingIntent);
     }
 
     private void createNotificationChannel() {

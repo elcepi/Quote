@@ -1,8 +1,11 @@
 package com.knowyourself.quote;
 
+import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import androidx.annotation.RawRes;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.knowyourself.quote.model.Author;
 import com.knowyourself.quote.model.Quotes;
@@ -16,54 +19,36 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.Random;
 
-public class QuoteSingleton {
-    private final static String TAG = QuoteSingleton.class.toString();
-    private static QuoteSingleton instance;
-
+public class MainActivity extends AppCompatActivity {
+    private final static String TAG = MainActivity.class.toString();
+    private File dir;
     private final List<Author> authors = new ArrayList<>();
     private final List<Quotes> quotes = new ArrayList<>();
+    private static Quotes currentQuote;
 
-    private File dir;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
+        dir = new File(getApplication().getFilesDir(), "quote");
 
-    //  TODO Android add context
-    public static void initInstance()
-    {
-        if (instance == null)
-        {
-            // Create the instance
-            instance = new QuoteSingleton();
-        }
-    }
-
-    public static QuoteSingleton getInstance()
-    {
-        // Return the instance
-        return instance;
-    }
-
-
-    private QuoteSingleton()
-    {
         crateDirAndCopyFile();
         fillAvailableAuthors();
         fillAvailableQuotes();
+
+        getRandomQuote();
+
+        TextView textView = findViewById(R.id.quote);
+        textView.setText(currentQuote.toString());
     }
 
-
-    private void copy(@RawRes int rawIdSrc, File dst) throws IOException {
-        try (InputStream in = getResources().openRawResource(rawIdSrc)) {
-            try (OutputStream out = new FileOutputStream(dst)) {
-                // Transfer bytes from in to out
-                byte[] buf = new byte[1024];
-                int len;
-                while ((len = in.read(buf)) > 0) {
-                    out.write(buf, 0, len);
-                }
-            }
-        }
+    private void getRandomQuote() {
+        currentQuote = quotes.get((new Random()).nextInt(quotes.size()));
     }
+
 
     private void fillAvailableQuotes() {
         for (Author a:authors) {
@@ -79,7 +64,7 @@ public class QuoteSingleton {
 
     private void fillAvailableAuthors() {
         for(String p: Objects.requireNonNull(dir.list())) {
-            authors.add(new Author(new File(dir, p).getAbsolutePath(),true));
+            authors.add(new Author(p, new File(dir, p).getAbsolutePath(),true));
         }
     }
 
@@ -97,8 +82,16 @@ public class QuoteSingleton {
         }
     }
 
-    public void customSingletonMethod()
-    {
-        // Custom method
+    private void copy(@RawRes int rawIdSrc, File dst) throws IOException {
+        try (InputStream in = getResources().openRawResource(rawIdSrc)) {
+            try (OutputStream out = new FileOutputStream(dst)) {
+                // Transfer bytes from in to out
+                byte[] buf = new byte[1024];
+                int len;
+                while ((len = in.read(buf)) > 0) {
+                    out.write(buf, 0, len);
+                }
+            }
+        }
     }
 }
