@@ -19,3 +19,4 @@ class BrainyQuote:
 
 BrainyQuote().process()
 
+# $(".b-qt div")[0].textContent

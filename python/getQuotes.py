@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 
+# python getQuotes.py https://wisdomquotes.com/buddha-quotes/
+
 import urllib3
 from bs4 import BeautifulSoup
 import sys
 import re
+import json
 
 selector = {
 	"www.goodreads.com": [".quoteText"],
@@ -14,9 +17,10 @@ selector = {
 	"bayart.org": [".wp-block-quote"],
 	"citatis.com": ["blockquote"],
 	"quotestats.com": ["blockquote"],
-        "upjourney.com": ["h2~p > em"],
+	"upjourney.com": ["h2~p > em"],
 	"www.ascensiongateway.com": ["font > ul > li > font"],
 	"www.azquotes.com": ["a.title"],
+	"wisdomquotes.com": ["blockquote > p"]
 }
 
 remove = {
@@ -25,13 +29,14 @@ remove = {
 
 class GetQuotes:
 	def __init__(self):
-		host = urllib3.get_host(sys.argv[1])[1]
-		self.cssSel = selector.get(host)
-		self.cssSelRem = selector.get(host)
+		self.host = urllib3.get_host(sys.argv[1])[1]
+		self.cssSel = selector.get(self.host)
+		self.cssSelRem = selector.get(self.host)
 		self.soup = BeautifulSoup(urllib3.PoolManager().request("GET", sys.argv[1]).data.decode("utf-8"), "html.parser")
 		super().__init__()
 
 	def process(self):
+		quotes = []
 		if self.cssSel:
 			for s in self.cssSel:
 				for a in self.soup.select(s):
@@ -45,8 +50,17 @@ class GetQuotes:
 						line = re.sub("–.*|”|“|$#?[0-9]+\\.\\s+|-","",line)
 						line = re.sub("[\s|\n]+$", "\n", line)
 
-						print(line)
-						print("--")
+					q = {
+						"text": line,
+						"tag": self.host,
+						"enabled": True,
+						"source": sys.argv[1]
+					}
+					quotes.append(q)
 
-GetQuotes().process()
+		return quotes
 
+quotes = GetQuotes().process()
+
+
+json.dump(quotes, sys.stdout)

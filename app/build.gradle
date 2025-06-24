@@ -39,4 +39,6 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "org.jetbrains.kotlin:kotlin-script-runtime:1.6.0-M1"
+
+    //implementation "io.gitlab.arturbosch.detekt:detekt-gradle-plugin:x.y.z"
 }
