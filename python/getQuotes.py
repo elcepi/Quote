@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# python getQuotes.py https://wisdomquotes.com/buddha-quotes/
+# python /home/jose/src/Quote/python/getQuotes.py https://wisdomquotes.com/buddha-quotes/
 
 import urllib3
 from bs4 import BeautifulSoup
@@ -52,9 +52,8 @@ class GetQuotes:
 
 					q = {
 						"text": line,
-						"tag": self.host,
+						"tag": sys.argv[1],
 						"enabled": True,
-						"source": sys.argv[1]
 					}
 					quotes.append(q)
 
