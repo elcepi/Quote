@@ -62,4 +62,4 @@ class GetQuotes:
 quotes = GetQuotes().process()
 
 
-json.dump(quotes, sys.stdout)
+json.dump(quotes, sys.stdout, indent=2)
